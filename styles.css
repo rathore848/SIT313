@@ -1,0 +1,145 @@
+body{
+    background: rgba(4, 4, 4, 0.851);
+    color: white;
+    font-family: serif, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: black;
+    color: white;
+    padding: 0px;
+}
+section{
+    color: rgb(49, 162, 94);
+    padding: 60px;
+    background: white;
+    
+}
+
+section.intro {
+    background-image: url("images/cover2.jpeg");
+    background-size: 100%;
+    
+    
+}
+section.intro div{
+    
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    width: fit-max;
+    padding: 20px;
+
+}
+
+section.about-me{
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.about-me figure{
+    margin: auto;
+    
+    width: 100px;
+}
+
+.about-me figure img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.about-me figure figcaption{
+  float: unset;  
+  width: 400px;
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  text-indent: 50;
+  margin: 0.5em;
+  padding: 0.5em;
+  position: relative;
+  left: -150%;
+}
+section.projects{
+    background: white;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.projects figure img{
+    border-radius: 20%;
+    width: 200px;
+    height: 300px;
+    border-style: double;
+}
+.photos{
+    text-align: center;
+    
+}
+section.pho-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+.pho-container {
+    column-count: 4;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.584);
+}
+
+
+div.text{
+    text-align: center;
+    color: red;
+}
+
+div{
+    margin: 40px 700px;
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    
+}
+li:first-child{
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(7, 164, 232);
+}
+a:hover{
+    text-decoration: underline;
+}
+.projects figcaption:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background: black;
+    padding: 10px 20px;
+}
